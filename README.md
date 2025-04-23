@@ -24,11 +24,11 @@ You will see a public URL (`https://xxxx.ngrok.io`) forwarding to `localhost:567
 ### 4. Environment Variables
 
 Edit .env and fill in:
-
+```dotenv
 PORT=5678
 WEBHOOK_URL=https://n8n.avataralabs.ai/webhook/test-webhook
 CALLBACK_URL=https://<your-callback-tunnel>.ngrok-free.app
-
+```
 ### 5. Run the callback server
 This starts an Express server that listens for n8n callbacks:
 ```bash
