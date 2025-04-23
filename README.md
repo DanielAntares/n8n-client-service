@@ -27,7 +27,7 @@ Edit .env and fill in:
 ```dotenv
 PORT=5678
 WEBHOOK_URL=https://n8n.avataralabs.ai/webhook/test-webhook
-CALLBACK_URL=https://<your-callback-tunnel>.ngrok-free.app
+CALLBACK_URL=https://<your-callback-tunnel>.ngrok-free.app/webhook/test-webhook
 ```
 ### 5. Run the callback server
 This starts an Express server that listens for n8n callbacks:
