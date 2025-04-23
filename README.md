@@ -19,7 +19,7 @@ Install ngrok on your system and expose your local port to the internet:
 ```bash
 ngrok http 5678
 ```
-You will see a public URL (`https://xxxx.ngrok.io`) forwarding to `localhost:5678`.
+You will see a public URL (`https://xxxx.ngrok-free.app`) forwarding to `localhost:5678`.
 
 ### 4. Environment Variables
 
